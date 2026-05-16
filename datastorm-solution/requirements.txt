@@ -1,1 +1,7 @@
 # Add Python dependencies for the POI pipeline here.
+pandas
+numpy
+requests
+tqdm
+scikit-learn
+pyarrow
