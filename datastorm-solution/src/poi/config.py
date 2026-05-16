@@ -15,8 +15,12 @@ OUTLET_COORDINATES_RAW = RAW_DATA_DIR / "outlet_coordinates.csv"
 OUTLET_COORDINATES_CLEAN = SILVER_DIR / "outlet_coordinates_clean.csv"
 REJECTED_COORDINATES = SILVER_DIR / "rejected_coordinates.csv"
 
+OUTLET_MASTER_PATH = RAW_DATA_DIR / "outlet_master.csv"
+TRANSACTIONS_PATH = RAW_DATA_DIR / "transactions_history_final.csv"
+
 POI_CLEAN_PATH = SILVER_POI_DIR / "poi_clean.csv"
 OUTLET_POI_FEATURES_PATH = GOLD_FEATURE_DIR / "outlet_poi_features.csv"
+MODEL_READY_PATH = GOLD_FEATURE_DIR / "model_ready_with_poi.csv"
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 
